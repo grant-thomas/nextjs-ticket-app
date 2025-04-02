@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)...
+# Ticket Manager App
+## _A modern internal support ticketing system for teams_
 
-## Getting Started
+This ticket management tool is designed for IT departments and operations teams to track and prioritize internal issues. Users can log in, create new tickets, update ticket details, and monitor resolution progress—all within a clean and responsive dashboard interface.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[TicketApp - Live Demo](https://nextjs-ticket-application.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Login View**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<img src="./assets/screenshots/TicketApp_Login.png"/>
 
-## Learn More
+**Ticket List View**
 
-To learn more about Next.js, take a look at the following resources:
+<img src="./assets/screenshots/TicketApp_Tickets.png"/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Ticket Detail View**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="./assets/screenshots/TicketApp_TicketDetail.png"/>
 
-## Deploy on Vercel
+**Edit Ticket View**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="./assets/screenshots/TicketApp_TicketEdit.png"/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Dashboard Overview**
+
+<img src="./assets/screenshots/TicketApp_Dashboard.png"/>
+
+## Features
+
+- Secure user authentication
+- Create, update, and delete support tickets
+- Assign ticket priority and track progress with status updates
+- View recent activity and ticket counts in a visual dashboard
+- Filter tickets by status or assigned user
+- Fully responsive design with dark mode support
+
+This app replicates functionality commonly found in enterprise ticketing systems like JIRA or ServiceNow, tailored for internal use with simplified workflows.
+
+## Tech
+
+Ticket Manager App is built using:
+
+- Next.js
+- React
+- TypeScript
+- Firebase (Authentication + Firestore Database)
+- Tailwind CSS
+- Vercel (Deployment)
+
+## Acknowledgements
+
+This project was built as a full-stack demonstration of real-time data handling, authentication, and admin-style dashboards using the modern Next.js ecosystem.
